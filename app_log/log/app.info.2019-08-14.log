@@ -1,0 +1,17 @@
+2019-08-14 11:14:22.558 INFO [main]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on SN-392-PC with PID 6284 (D:\IdeaProjects\spring-boot-demo\target\classes started by SN-392 in D:\IdeaProjects\spring-boot-demo)
+2019-08-14 11:14:22.563 INFO [main]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:647 -No active profile set, falling back to default profiles: default
+2019-08-14 11:14:24.180 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-08-14 11:14:24.204 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-14 11:14:24.221 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-08-14 11:14:24.221 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-14 11:14:24.373 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-08-14 11:14:24.373 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1668 ms
+2019-08-14 11:14:24.651 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-14 11:14:24.842 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-08-14 11:14:24.877 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-14 11:14:24.881 INFO [main]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 3.465 seconds (JVM running for 6.91)
+2019-08-14 11:14:53.076 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-14 11:14:53.077 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-08-14 11:14:53.086 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 9 ms
+2019-08-14 11:15:00.581 INFO [http-nio-8080-exec-2]com.sysware.controller.DemoController.hello:23 -这是INFO日志
+2019-08-14 11:15:00.582 WARN [http-nio-8080-exec-2]com.sysware.controller.DemoController.hello:24 -这是warn日志
