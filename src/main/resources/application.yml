@@ -1,1 +1,4 @@
-
+spring:
+  banner:
+    # 个性化banner文件地址
+    location: banner.txt

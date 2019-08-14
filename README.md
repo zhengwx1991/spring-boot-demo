@@ -219,3 +219,33 @@ public class AsyncTaskController {
 3）如果需要拿到结果 需要判断全部的 task.isDone()
 4、通过注入方式，注入到controller里面，如果测试前后区别则改为同步则把Async注释掉
 ```
+
+### 自定义banner官方文档
+
+https://docs.spring.io/spring-boot/docs/2.1.0.BUILD-SNAPSHOT/reference/htmlsingle/#boot-features-banners
+
+### banner生成网站
+
+https://www.bootschool.net/ascii
+
+### 修改application.yml
+
+```
+spring:
+  banner:
+    # 个性化banner文件地址
+    location: banner.txt
+```
+
+### 在resources目录下增加banner.txt
+
+在banner.txt写入自己需要自定义的banner，如下：
+
+```
+  ____   __   __  ____   __        __     _      ____    _____
+ / ___|  \ \ / / / ___|  \ \      / /    / \    |  _ \  | ____|
+ \___ \   \ V /  \___ \   \ \ /\ / /    / _ \   | |_) | |  _|
+  ___) |   | |    ___) |   \ V  V /    / ___ \  |  _ <  | |___
+ |____/    |_|   |____/     \_/\_/    /_/   \_\ |_| \_\ |_____|
+======================= 索为系统欢迎您 ! =======================
+```
