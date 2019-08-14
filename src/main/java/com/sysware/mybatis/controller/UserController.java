@@ -4,8 +4,8 @@ import com.sysware.mybatis.domain.JsonData;
 import com.sysware.mybatis.domain.User;
 import com.sysware.mybatis.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Date;
@@ -24,7 +24,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("add")
+    @RequestMapping("add")
     public Object add(){
         User user = new User();
         user.setAge(20);
@@ -34,18 +34,18 @@ public class UserController {
         return JsonData.buildSuccess(userService.add(user));
     }
 
-    @GetMapping("list_all")
+    @RequestMapping("list_all")
     public Object listAll(){
         return JsonData.buildSuccess(userService.listAll());
     }
 
-    @GetMapping("get_by_id")
-    public Object getById(long id){
+    @RequestMapping("get_by_id")
+    public Object getById(@RequestParam("id") long id){
         return JsonData.buildSuccess(userService.getById(id));
     }
 
-    @GetMapping("update")
-    public Object update(String name,int id){
+    @RequestMapping("update")
+    public Object update(@RequestParam("name") String name, @RequestParam("id") int id){
         User user = new User();
         user.setId(id);
         user.setName(name);
@@ -53,8 +53,8 @@ public class UserController {
         return JsonData.buildSuccess();
     }
 
-    @GetMapping("remove_by_id")
-    public Object delete(long id){
+    @RequestMapping("remove_by_id")
+    public Object delete(@RequestParam("id") long id){
         userService.delete(id);
         return JsonData.buildSuccess();
     }
