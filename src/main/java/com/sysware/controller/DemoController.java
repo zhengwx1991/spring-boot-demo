@@ -2,11 +2,9 @@ package com.sysware.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.concurrent.Future;
 
 /**
  * @program: DemoController
@@ -29,5 +27,21 @@ public class DemoController {
         logger.debug("这是debug日志");
         return "hello";
     }
+
+    /**
+     * 获取配置信息
+     */
+    @Value("${test.url}")
+    private String url;
+
+    /**
+     * 读取springboot多环境配置信息
+     * @return
+     */
+    @RequestMapping("many_env")
+    public Object manyEnv(){
+        return url;
+    }
+
 
 }

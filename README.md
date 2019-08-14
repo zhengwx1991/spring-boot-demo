@@ -303,4 +303,69 @@ spring:
 ​		点击 Registry...
 ​			勾选compiler.automake.allow.when.app.running
 ![idea-setting-2.jpg](https://i.loli.net/2019/08/12/OZJFP4kBxvihW97.png)
+------
+### 多环境配置
+
+不同环境使用不同配置：例如数据库配置，在开发的时候，我们一般用开发数据库，而在生产环境的时候，我们是用正式的数据
+
+### 多环境配置开发
+
+创建多环境配置文件，示例如下：
+spring boot允许通过命名约定按照一定的格式(application-{profile}.properties)来定义多个配置文件。
+创建多环境配置文件时一定要遵循规范。
+
+新建application-dev.yml
+
+```
+test:
+  url: dev.com
+```
+
+新建application-test.yml
+
+```
+test:
+  url: test.com
+```
+
+修改application.yml
+
+```
+spring:
+  # springboot多环境配置，指定读取的配置文件，主要名字要与配置文件名字吻合
+  profiles:
+    active: test
+# 如果上边不指定读取的文件，则系统会读取application.yml里边对应的配置
+test:
+  url: localhost
+```
+
+读取配置，验证是否成功：
+
+```
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("api/v1")
+public class DemoController {
+    /**
+     * 获取配置信息
+     */
+    @Value("${test.url}")
+    private String url;
+
+    /**
+     * 读取springboot多环境配置信息
+     * @return
+     */
+    @RequestMapping("many_env")
+    public Object manyEnv(){
+        return url;
+    }
+}
+```
 

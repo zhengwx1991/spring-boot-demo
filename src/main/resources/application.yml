@@ -1,14 +1,21 @@
 spring:
   banner:
-    # ¸öĞÔ»¯bannerÎÄ¼şµØÖ·
+    # ä¸ªæ€§åŒ–banneræ–‡ä»¶åœ°å€
     location: banner.txt
   devtools:
     restart:
-      #ÈÈ²¿ÊğÉúĞ§£¬Ä¬ÈÏÎªtrue
+      # çƒ­éƒ¨ç½²ç”Ÿæ•ˆï¼Œé»˜è®¤ä¸ºtrue
       enabled: true
-      #ÉèÖÃÖØÆôµÄÄ¿Â¼
-      additional-paths: src/main/java
-      #classpathÄ¿Â¼ÏÂµÄWEB-INFÎÄ¼ş¼ĞÄÚÈİĞŞ¸Ä²»ÖØÆô
+      # è®¾ç½®é‡å¯çš„ç›®å½•
+      additional-paths: src/main
+      # classpathç›®å½•ä¸‹çš„WEB-INFæ–‡ä»¶å¤¹å†…å®¹ä¿®æ”¹ä¸é‡å¯
       exclude: WEB-INF/**
-      # Ö¸¶¨´¥·¢ÎÄ¼ş£¬µ±¸ÃÎÄ¼şĞŞ¸ÄÊ±²Å»áÖØÆô
+      # æŒ‡å®šè§¦å‘æ–‡ä»¶ï¼Œå½“è¯¥æ–‡ä»¶ä¿®æ”¹æ—¶æ‰ä¼šé‡å¯
       trigger-file: trigger.txt
+  # springbootå¤šç¯å¢ƒé…ç½®
+  profiles:
+    active: test
+
+# å¦‚æœä¸Šè¾¹ä¸æŒ‡å®šè¯»å–çš„æ–‡ä»¶ï¼Œåˆ™ç³»ç»Ÿä¼šè¯»å–application.ymlé‡Œè¾¹å¯¹åº”çš„é…ç½®
+test:
+  url: localhost
