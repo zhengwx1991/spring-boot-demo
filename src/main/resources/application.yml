@@ -15,7 +15,20 @@ spring:
   # springboot多环境配置
   profiles:
     active: test
+  # 配置mysql数据库
+  datasource:
+    url: jdbc:mysql://192.168.56.105:3306/mybatis?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    # 默认数据源为（com.zaxxer.hikari.HikariDataSource）
+    # 配置第三方数据源，如下阿里巴巴的druid
+    type: com.alibaba.druid.pool.DruidDataSource
 
 # 如果上边不指定读取的文件，则系统会读取application.yml里边对应的配置
 test:
   url: localhost
+
+# 开启控制台打印sql
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

@@ -1,5 +1,6 @@
 package com.sysware;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableAsync;
@@ -10,6 +11,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 // 开启异步任务
 @EnableAsync
+@MapperScan("com.sysware.mybatis.mapper")
 public class SpringBootDemoApplication {
 
     public static void main(String[] args) {
