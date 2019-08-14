@@ -15,3 +15,176 @@
 2019-08-14 11:14:53.086 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 9 ms
 2019-08-14 11:15:00.581 INFO [http-nio-8080-exec-2]com.sysware.controller.DemoController.hello:23 -这是INFO日志
 2019-08-14 11:15:00.582 WARN [http-nio-8080-exec-2]com.sysware.controller.DemoController.hello:24 -这是warn日志
+2019-08-14 11:24:20.082 INFO [main]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on SN-392-PC with PID 6236 (D:\IdeaProjects\spring-boot-demo\target\classes started by SN-392 in D:\IdeaProjects\spring-boot-demo)
+2019-08-14 11:24:20.100 INFO [main]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:647 -No active profile set, falling back to default profiles: default
+2019-08-14 11:24:21.888 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-08-14 11:24:21.911 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-14 11:24:21.930 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-08-14 11:24:21.931 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-14 11:24:22.105 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-08-14 11:24:22.106 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1900 ms
+2019-08-14 11:24:22.401 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-14 11:24:22.557 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-08-14 11:24:22.614 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:22 CST 2019
+2019-08-14 11:24:22.617 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-08-14 11:24:22.658 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-14 11:24:22.666 INFO [main]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 3.881 seconds (JVM running for 5.456)
+2019-08-14 11:24:24.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:24 CST 2019
+2019-08-14 11:24:26.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:26 CST 2019
+2019-08-14 11:24:28.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:28 CST 2019
+2019-08-14 11:24:30.618 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:30 CST 2019
+2019-08-14 11:24:32.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:32 CST 2019
+2019-08-14 11:24:34.610 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:34 CST 2019
+2019-08-14 11:24:36.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:36 CST 2019
+2019-08-14 11:24:38.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:38 CST 2019
+2019-08-14 11:24:40.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:40 CST 2019
+2019-08-14 11:24:42.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:42 CST 2019
+2019-08-14 11:24:44.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:44 CST 2019
+2019-08-14 11:24:46.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:46 CST 2019
+2019-08-14 11:24:48.610 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:48 CST 2019
+2019-08-14 11:24:50.610 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:50 CST 2019
+2019-08-14 11:24:52.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:52 CST 2019
+2019-08-14 11:24:54.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:54 CST 2019
+2019-08-14 11:24:56.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:56 CST 2019
+2019-08-14 11:24:58.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:24:58 CST 2019
+2019-08-14 11:25:00.646 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:00 CST 2019
+2019-08-14 11:25:02.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:02 CST 2019
+2019-08-14 11:25:04.611 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:04 CST 2019
+2019-08-14 11:25:06.610 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:06 CST 2019
+2019-08-14 11:25:08.610 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:08 CST 2019
+2019-08-14 11:25:10.610 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:10 CST 2019
+2019-08-14 11:25:12.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:12 CST 2019
+2019-08-14 11:25:14.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:14 CST 2019
+2019-08-14 11:25:16.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:16 CST 2019
+2019-08-14 11:25:18.638 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:18 CST 2019
+2019-08-14 11:25:20.617 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:20 CST 2019
+2019-08-14 11:25:22.639 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:22 CST 2019
+2019-08-14 11:25:24.610 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:24 CST 2019
+2019-08-14 11:25:26.610 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:26 CST 2019
+2019-08-14 11:25:28.610 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:28 CST 2019
+2019-08-14 11:25:30.610 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:30 CST 2019
+2019-08-14 11:25:32.614 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:32 CST 2019
+2019-08-14 11:25:34.612 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:34 CST 2019
+2019-08-14 11:25:36.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:36 CST 2019
+2019-08-14 11:25:38.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:38 CST 2019
+2019-08-14 11:25:40.610 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:40 CST 2019
+2019-08-14 11:25:42.610 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:26 -执行了定时任务，时间：Wed Aug 14 11:25:42 CST 2019
+2019-08-14 12:31:13.991 INFO [main]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on SN-392-PC with PID 1280 (D:\IdeaProjects\spring-boot-demo\target\classes started by SN-392 in D:\IdeaProjects\spring-boot-demo)
+2019-08-14 12:31:13.997 INFO [main]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:647 -No active profile set, falling back to default profiles: default
+2019-08-14 12:31:15.785 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-08-14 12:31:15.802 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-14 12:31:15.813 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-08-14 12:31:15.813 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-14 12:31:15.994 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-08-14 12:31:15.994 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1902 ms
+2019-08-14 12:31:16.446 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-14 12:31:16.638 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-08-14 12:31:16.704 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-08-14 12:31:16.750 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-14 12:31:16.759 INFO [main]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 3.712 seconds (JVM running for 5.111)
+2019-08-14 12:31:16.777 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:16 CST 2019
+2019-08-14 12:31:18.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:18 CST 2019
+2019-08-14 12:31:20.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:20 CST 2019
+2019-08-14 12:31:22.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:22 CST 2019
+2019-08-14 12:31:24.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:24 CST 2019
+2019-08-14 12:31:26.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:26 CST 2019
+2019-08-14 12:31:28.700 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:28 CST 2019
+2019-08-14 12:31:30.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:30 CST 2019
+2019-08-14 12:31:32.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:32 CST 2019
+2019-08-14 12:31:34.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:34 CST 2019
+2019-08-14 12:31:36.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:36 CST 2019
+2019-08-14 12:31:38.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:38 CST 2019
+2019-08-14 12:31:40.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:40 CST 2019
+2019-08-14 12:31:42.702 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:42 CST 2019
+2019-08-14 12:31:44.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:44 CST 2019
+2019-08-14 12:31:44.876 INFO [http-nio-8080-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-14 12:31:44.877 INFO [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-08-14 12:31:44.885 INFO [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 8 ms
+2019-08-14 12:31:44.925 INFO [http-nio-8080-exec-2]com.sysware.controller.DemoController.asyncTask:42 -执行总耗时：9
+2019-08-14 12:31:46.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:46 CST 2019
+2019-08-14 12:31:46.930 INFO [task-3]com.sysware.task.Async.AsyncTask.task3:43 -执行了异步任务3，时间：2000
+2019-08-14 12:31:46.930 INFO [task-1]com.sysware.task.Async.AsyncTask.task1:29 -执行了异步任务1，时间：2000
+2019-08-14 12:31:46.931 INFO [task-2]com.sysware.task.Async.AsyncTask.task2:36 -执行了异步任务2，时间：2001
+2019-08-14 12:31:48.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:48 CST 2019
+2019-08-14 12:31:50.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:50 CST 2019
+2019-08-14 12:31:52.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:52 CST 2019
+2019-08-14 12:31:54.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:54 CST 2019
+2019-08-14 12:31:56.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:56 CST 2019
+2019-08-14 12:31:58.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:31:58 CST 2019
+2019-08-14 12:32:00.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:32:00 CST 2019
+2019-08-14 12:32:02.720 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:32:02 CST 2019
+2019-08-14 12:32:09.975 INFO [main]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on SN-392-PC with PID 7940 (D:\IdeaProjects\spring-boot-demo\target\classes started by SN-392 in D:\IdeaProjects\spring-boot-demo)
+2019-08-14 12:32:09.981 INFO [main]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:647 -No active profile set, falling back to default profiles: default
+2019-08-14 12:32:11.732 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-08-14 12:32:11.751 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-14 12:32:11.762 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-08-14 12:32:11.762 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-14 12:32:11.907 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-08-14 12:32:11.907 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1833 ms
+2019-08-14 12:32:12.232 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-14 12:32:12.417 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-08-14 12:32:12.458 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:32:12 CST 2019
+2019-08-14 12:32:12.461 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-08-14 12:32:12.494 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-14 12:32:12.499 INFO [main]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 3.558 seconds (JVM running for 4.98)
+2019-08-14 12:41:24.059 INFO [main]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on SN-392-PC with PID 7152 (D:\IdeaProjects\spring-boot-demo\target\classes started by SN-392 in D:\IdeaProjects\spring-boot-demo)
+2019-08-14 12:41:24.064 INFO [main]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:647 -No active profile set, falling back to default profiles: default
+2019-08-14 12:41:25.374 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-08-14 12:41:25.392 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-14 12:41:25.404 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-08-14 12:41:25.404 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-14 12:41:25.643 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-08-14 12:41:25.643 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1492 ms
+2019-08-14 12:41:25.988 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-14 12:41:26.147 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-08-14 12:41:26.180 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:41:26 CST 2019
+2019-08-14 12:41:26.182 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-08-14 12:41:26.212 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-14 12:41:26.217 INFO [main]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 3.607 seconds (JVM running for 5.251)
+2019-08-14 12:41:57.790 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-14 12:41:57.792 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-08-14 12:41:57.801 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 8 ms
+2019-08-14 12:41:58.840 INFO [task-3]com.sysware.task.Async.AsyncTask.task6:72 -执行了异步任务6，时间：1000
+2019-08-14 12:41:59.840 INFO [task-1]com.sysware.task.Async.AsyncTask.task4:54 -执行了异步任务4，时间：2000
+2019-08-14 12:42:00.841 INFO [task-2]com.sysware.task.Async.AsyncTask.task5:63 -执行了异步任务5，时间：3001
+2019-08-14 12:42:00.841 INFO [http-nio-8080-exec-1]com.sysware.controller.DemoController.asyncTaskResult:72 -执行总耗时：3013
+2019-08-14 12:44:46.182 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:44:46 CST 2019
+2019-08-14 12:48:06.183 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:48:06 CST 2019
+2019-08-14 12:49:16.141 INFO [main]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on SN-392-PC with PID 8136 (D:\IdeaProjects\spring-boot-demo\target\classes started by SN-392 in D:\IdeaProjects\spring-boot-demo)
+2019-08-14 12:49:16.146 INFO [main]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:647 -No active profile set, falling back to default profiles: default
+2019-08-14 12:49:17.583 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-08-14 12:49:17.598 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-14 12:49:17.608 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-08-14 12:49:17.608 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-14 12:49:17.732 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-08-14 12:49:17.733 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1456 ms
+2019-08-14 12:49:18.012 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-14 12:49:18.159 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-08-14 12:49:18.193 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:49:18 CST 2019
+2019-08-14 12:49:18.196 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-08-14 12:49:18.224 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-14 12:49:18.229 INFO [main]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 2.902 seconds (JVM running for 4.204)
+2019-08-14 12:49:29.788 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-14 12:49:29.788 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-08-14 12:49:29.795 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 6 ms
+2019-08-14 12:50:07.661 INFO [main]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on SN-392-PC with PID 8140 (D:\IdeaProjects\spring-boot-demo\target\classes started by SN-392 in D:\IdeaProjects\spring-boot-demo)
+2019-08-14 12:50:07.666 INFO [main]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:647 -No active profile set, falling back to default profiles: default
+2019-08-14 12:50:09.203 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-08-14 12:50:09.218 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-14 12:50:09.229 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-08-14 12:50:09.230 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-14 12:50:09.365 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-08-14 12:50:09.365 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1604 ms
+2019-08-14 12:50:09.652 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-14 12:50:09.830 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-08-14 12:50:09.873 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:29 -执行了定时任务，时间：Wed Aug 14 12:50:09 CST 2019
+2019-08-14 12:50:09.876 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-08-14 12:50:09.907 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-14 12:50:09.913 INFO [main]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 3.067 seconds (JVM running for 4.324)
+2019-08-14 12:50:32.714 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-14 12:50:32.715 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-08-14 12:50:32.722 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 7 ms
+2019-08-14 12:50:33.758 INFO [task-3]com.sysware.task.async.AsyncTask.task6:70 -执行了异步任务6，时间：1000
+2019-08-14 12:50:34.758 INFO [task-1]com.sysware.task.async.AsyncTask.task4:52 -执行了异步任务4，时间：2000
+2019-08-14 12:50:35.758 INFO [task-2]com.sysware.task.async.AsyncTask.task5:61 -执行了异步任务5，时间：3000
+2019-08-14 12:50:35.758 INFO [http-nio-8080-exec-1]com.sysware.task.async.AsyncTaskController.asyncTaskResult:62 -执行总耗时：3013

@@ -2,8 +2,11 @@ package com.sysware.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.concurrent.Future;
 
 /**
  * @program: DemoController
@@ -13,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @version: 1.0.0
  **/
 @RestController
-@RequestMapping("v1/test")
+@RequestMapping("api/v1")
 public class DemoController {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
@@ -26,4 +29,5 @@ public class DemoController {
         logger.debug("这是debug日志");
         return "hello";
     }
+
 }
