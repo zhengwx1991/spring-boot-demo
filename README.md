@@ -219,7 +219,7 @@ public class AsyncTaskController {
 3）如果需要拿到结果 需要判断全部的 task.isDone()
 4、通过注入方式，注入到controller里面，如果测试前后区别则改为同步则把Async注释掉
 ```
-
+------
 ### 自定义banner官方文档
 
 https://docs.spring.io/spring-boot/docs/2.1.0.BUILD-SNAPSHOT/reference/htmlsingle/#boot-features-banners
@@ -249,3 +249,58 @@ spring:
  |____/    |_|   |____/     \_/\_/    /_/   \_\ |_| \_\ |_____|
 ======================= 索为系统欢迎您 ! =======================
 ```
+------
+### 热部署官方文档
+[https://docs.spring.io/spring-boot/docs/2.1.0.BUILD-SNAPSHOT/reference/htmlsingle/#using-boot-devtools](https://docs.spring.io/spring-boot/docs/2.1.0.BUILD-SNAPSHOT/reference/htmlsingle/#using-boot-devtools)
+
+<!-- more -->
+
+### pom文件添加依赖
+	<dependencies>
+		<!--热部署-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
+	
+	<build>
+	    <plugins>
+	        <plugin>
+	            <groupId>org.springframework.boot</groupId>
+	            <artifactId>spring-boot-maven-plugin</artifactId>
+				<!--特别注意：配置devtools-->
+				<!--如果没有该项配置，这个devtools不会起作用，即应用不会restart-->
+	            <configuration>
+	                <fork>true</fork>
+	            </configuration>
+	        </plugin>
+	    </plugins>
+	</build>
+完成以上步骤即可使用热部署
+### 个性化配置
+	1、修改application.yml配置文件
+		spring:
+		  devtools:
+		    restart:
+		      #热部署生效，默认为true
+		      enabled: true
+		      #设置重启的目录
+		      additional-paths: src/main/java
+		      #classpath目录下的WEB-INF文件夹内容修改不重启
+		      exclude: WEB-INF/**
+		      # 指定触发文件，当该文件修改时才会重启
+		      trigger-file: trigger.txt
+	2、在src\main\resources创建trigger.txt文件写入version=1，每次需要重启系统时，修改该文件里边的数字即可，一是避免每次保存后台文件时系统频繁重启的问题，二是方便自己版本管理，如果不需要则trigger.txt文件里边的内容自定义即可。
+### IDEA下不生效的问题
+	1、Ctrl+Alt+S打开Settings
+		找到Build, Execution, Deployment-->>Compiler
+			勾选Build project automatically
+![idea-setting-1.jpg](https://i.loli.net/2019/08/12/4K2shCTjDHtbk7a.png)
+
+​	2、Ctrl+Shift+Alt+/或者Alt+Shift+A
+​		点击 Registry...
+​			勾选compiler.automake.allow.when.app.running
+![idea-setting-2.jpg](https://i.loli.net/2019/08/12/OZJFP4kBxvihW97.png)
+

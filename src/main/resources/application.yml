@@ -2,3 +2,13 @@ spring:
   banner:
     # 个性化banner文件地址
     location: banner.txt
+  devtools:
+    restart:
+      #热部署生效，默认为true
+      enabled: true
+      #设置重启的目录
+      additional-paths: src/main/java
+      #classpath目录下的WEB-INF文件夹内容修改不重启
+      exclude: WEB-INF/**
+      # 指定触发文件，当该文件修改时才会重启
+      trigger-file: trigger.txt
