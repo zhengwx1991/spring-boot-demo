@@ -37,4 +37,10 @@ public interface UserService {
      * @param userId
      */
     void delete(Long userId);
+
+    /**
+     * 测试事务
+     * @return
+     */
+    int testTransaction();
 }

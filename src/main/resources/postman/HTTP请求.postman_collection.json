@@ -1,0 +1,306 @@
+{
+	"info": {
+		"_postman_id": "aa8f3f9f-624d-449d-b247-71c5209ce140",
+		"name": "HTTP请求",
+		"description": "http请求模块相关接口",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "测试restful协议，从路径中获取参数字段",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "token",
+						"value": "12312312",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/get/123/456",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"get",
+						"123",
+						"456"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "测试GetMapping",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "access_token",
+						"value": "131231412weqweqw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"二当家小D\",\n\t\"pwd\": \"123456\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/get/page_user1?from=0&size=20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"get",
+						"page_user1"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "测试默认值，必填项",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":123,\n\t\"name\":\"哈哈\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/get/page_user2?size=20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"get",
+						"page_user2"
+					],
+					"query": [
+						{
+							"key": "size",
+							"value": "20"
+						}
+					]
+				},
+				"description": "默认值，如果接口没传该参数，则使用默认值\r\n参数是否必填验证（不是强项,可以由前端或者拦截器等验证）\r\npage是前端传过来的对应值，也可以不设置"
+			},
+			"response": []
+		},
+		{
+			"name": "bean对象传参",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":\"123\",\n\t\"name\":\"小红\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/get/save_user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"get",
+						"save_user"
+					]
+				},
+				"description": "1、注意需要指定http头为content-type为application/json\r\n2、使用body传输数据\r\n3、只能用post提交，所以注解不是@GetMapping而是@RequestMapping"
+			},
+			"response": []
+		},
+		{
+			"name": "获取http请求头信息",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access_token",
+						"value": "123123123qweqw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/get/get_header?id=123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"get",
+						"get_header"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "123"
+						}
+					]
+				},
+				"description": "获取http请求头信息，使用场景比如鉴权"
+			},
+			"response": []
+		},
+		{
+			"name": "测试PostMapping",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/other/post?id=123&pwd=123456",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"other",
+						"post"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "123"
+						},
+						{
+							"key": "pwd",
+							"value": "123456"
+						}
+					]
+				},
+				"description": "post提交，一般用于登陆，表单提交等"
+			},
+			"response": []
+		},
+		{
+			"name": "测试PutMapping",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/other/put?id=123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"other",
+						"put"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "123"
+						}
+					]
+				},
+				"description": "put提交，一般用于更新"
+			},
+			"response": []
+		},
+		{
+			"name": "测试DeleteMapping",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/other/del?id=123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"other",
+						"del"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "123"
+						}
+					]
+				},
+				"description": "DeleteMapping提交，删除"
+			},
+			"response": []
+		}
+	]
+}

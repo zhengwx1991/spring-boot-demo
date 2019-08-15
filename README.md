@@ -369,4 +369,121 @@ public class DemoController {
     }
 }
 ```
+------
+### 项目地址
 
+https://github.com/zhengwx1991/spring-boot-demo.git
+
+### SpringBoot整合Mybatis
+
+###### 引入依赖
+
+```xml
+<!--SpringBoot整合Mybatis开始-->
+<!-- 引入starter-->
+<dependency>
+    <groupId>org.mybatis.spring.boot</groupId>
+    <artifactId>mybatis-spring-boot-starter</artifactId>
+    <version>1.3.2</version>
+</dependency>
+
+<!-- MySQL的JDBC驱动包	-->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <scope>runtime</scope>
+</dependency>
+
+<!-- 引入第三方数据源 -->
+<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>druid</artifactId>
+    <version>1.1.6</version>
+</dependency>
+<!--SpringBoot整合Mybatis结束-->
+```
+
+###### 配置数据库连接
+
+```yaml
+spring:
+  # 配置mysql数据库
+  datasource:
+    url: jdbc:mysql://192.168.56.105:3306/mybatis?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    # 默认数据源为（com.zaxxer.hikari.HikariDataSource）
+    # 配置第三方数据源，如下阿里巴巴的druid
+    type: com.alibaba.druid.pool.DruidDataSource
+
+# 开启控制台打印sql，一般用于本地开发测试部署时应注释掉
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+```
+
+###### 启动类增加mapper扫描
+
+```java
+@SpringBootApplication
+@MapperScan("com.sysware.mybatis.mapper")
+public class SpringBootDemoApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootDemoApplication.class, args);
+    }
+}
+```
+
+###### 开发mapper
+
+参考语法：http://www.mybatis.org/mybatis-3/zh/java-api.html
+
+###### 相关资料：
+
+http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/#Configuration
+
+https://github.com/mybatis/spring-boot-starter/tree/master/mybatis-spring-boot-samples
+
+###### 整合问题集合：
+
+https://my.oschina.net/hxflar1314520/blog/1800035
+
+https://blog.csdn.net/tingxuetage/article/details/80179772
+
+### 事务、隔离级别、传播行为
+
+###### 常见的隔离级别
+
+Serializable： 最严格，串行处理，消耗资源大
+Repeatable Read：保证了一个事务不会修改已经由另一个事务读取但未提交（回滚）的数据
+Read Committed：大多数主流数据库的默认事务等级
+Read Uncommitted：保证了读取过程中不会读取到非法数据
+
+###### 常见的传播行为
+
+PROPAGATION_REQUIRED：支持当前事务，如果当前没有事务，就新建一个事务,最常见的选择
+PROPAGATION_SUPPORTS：支持当前事务，如果当前没有事务，就以非事务方式执行
+PROPAGATION_MANDATORY：支持当前事务，如果当前没有事务，就抛出异常
+PROPAGATION_REQUIRES_NEW：新建事务，如果当前存在事务，把当前事务挂起, 两个事务之间没有关系，一个异常，一个提交，不会同时回滚
+PROPAGATION_NOT_SUPPORTED：以非事务方式执行操作，如果当前存在事务，就把当前事务挂起
+PROPAGATION_NEVER：以非事务方式执行，如果当前存在事务，则抛出异常
+
+###### Mybatis引入事物
+
+service的实现类引入事务 ，可用作整个类也可以用于指定的的方法@Transantional(propagation=Propagation.REQUIRED)
+
+```java
+@Override
+@Transactional(propagation = Propagation.REQUIRED)
+public int testTransaction() {
+    User user = new User();
+    user.setAge(9);
+    user.setCreateTime(new Date());
+    user.setName("事务测试");
+    user.setPhone("000121212");
+    userMapper.insert(user);
+    // 加入异常
+    int a = 1/0;
+    return user.getId();
+}
+```

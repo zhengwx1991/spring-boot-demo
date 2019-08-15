@@ -4,7 +4,10 @@ import com.sysware.mybatis.domain.User;
 import com.sysware.mybatis.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -44,5 +47,19 @@ public class UserServiceImpl implements UserService {
     @Override
     public void delete(Long userId) {
         userMapper.delete(userId);
+    }
+
+    @Override
+    @Transactional(propagation = Propagation.REQUIRED)
+    public int testTransaction() {
+        User user = new User();
+        user.setAge(9);
+        user.setCreateTime(new Date());
+        user.setName("事务测试");
+        user.setPhone("000121212");
+        userMapper.insert(user);
+        // 加入异常
+        int a = 1/0;
+        return user.getId();
     }
 }

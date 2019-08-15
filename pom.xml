@@ -39,6 +39,7 @@
             <optional>true</optional>
         </dependency>
 
+        <!--SpringBoot整合Mybatis开始-->
         <!-- 引入starter-->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
@@ -59,6 +60,7 @@
             <artifactId>druid</artifactId>
             <version>1.1.6</version>
         </dependency>
+        <!--SpringBoot整合Mybatis结束-->
 
     </dependencies>
 

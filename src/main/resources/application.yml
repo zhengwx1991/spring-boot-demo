@@ -28,7 +28,7 @@ spring:
 test:
   url: localhost
 
-# 开启控制台打印sql
+# 开启控制台打印sql，一般用于本地开发测试部署时应注释掉
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
