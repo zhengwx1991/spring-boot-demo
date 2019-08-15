@@ -1,4 +1,4 @@
-### 该项目为SpringBoot的Demo项目，相关的技术Demo均卸载该项目下
+### 该项目为SpringBoot的Demo项目，相关的技术Demo均写在该项目下
 ### 定时任务
 
 ###### 常见定时任务
@@ -468,7 +468,7 @@ PROPAGATION_REQUIRES_NEW：新建事务，如果当前存在事务，把当前�
 PROPAGATION_NOT_SUPPORTED：以非事务方式执行操作，如果当前存在事务，就把当前事务挂起
 PROPAGATION_NEVER：以非事务方式执行，如果当前存在事务，则抛出异常
 
-###### Mybatis引入事物
+###### Mybatis引入事务
 
 service的实现类引入事务 ，可用作整个类也可以用于指定的的方法@Transantional(propagation=Propagation.REQUIRED)
 
