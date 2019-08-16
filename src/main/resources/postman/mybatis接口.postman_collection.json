@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "c1a5eb31-01bc-401f-8739-65899fdb6862",
+		"name": "mybatis接口",
+		"description": "springboot集成mybatis相关接口",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "新增用户",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"小红\",\n\t\"phone\":\"18812345698\",\n\t\"age\":\"15\",\n\t\"createTime\":\"2019-08-15\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/user/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "查询全部用户",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/user/list_all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"list_all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "根据用户ID查询信息",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/user/get_by_id?user_id=22",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"get_by_id"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "22"
+						}
+					]
+				},
+				"description": "根据用户ID查询信息\r\n@RequestParam用户指定接口传过来的参数，如果一致可以不设置"
+			},
+			"response": []
+		},
+		{
+			"name": "更新用户信息",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/user/update?name=小黄&id=22",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"update"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "小黄"
+						},
+						{
+							"key": "id",
+							"value": "22"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "删除用户",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/user/remove_by_id?id=23",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"remove_by_id"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "23"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
