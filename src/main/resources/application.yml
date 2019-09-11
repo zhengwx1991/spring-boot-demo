@@ -17,12 +17,17 @@ spring:
     active: test
   # 配置mysql数据库
   datasource:
-    url: jdbc:mysql://192.168.56.105:3306/mybatis?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://192.168.56.102:3306/spring-boot-demo?useUnicode=true&characterEncoding=utf-8
     username: root
     password: root
     # 默认数据源为（com.zaxxer.hikari.HikariDataSource）
     # 配置第三方数据源，如下阿里巴巴的druid
     type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+    host: 192.168.56.102
+    port: 6379
+    database: 0
+    password:
 
 # 如果上边不指定读取的文件，则系统会读取application.yml里边对应的配置
 test:
