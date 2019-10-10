@@ -17,14 +17,14 @@ spring:
     active: test
   # 配置mysql数据库
   datasource:
-    url: jdbc:mysql://192.168.56.102:3306/spring-boot-demo?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://39.100.104.226:3306/spring-boot-demo?useUnicode=true&characterEncoding=utf-8
     username: root
-    password: root
+    password: 123456
     # 默认数据源为（com.zaxxer.hikari.HikariDataSource）
     # 配置第三方数据源，如下阿里巴巴的druid
     type: com.alibaba.druid.pool.DruidDataSource
   redis:
-    host: 192.168.56.102
+    host: 39.100.104.226
     port: 6379
     database: 0
     password:

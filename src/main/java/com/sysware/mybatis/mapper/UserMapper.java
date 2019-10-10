@@ -12,12 +12,12 @@ public interface UserMapper {
 
     /**
      * 新增
+     * 推荐使用#{}取值，不要用${},因为存在注入的风险
+     * keyProperty java对象的属性；keyColumn表示数据库的字段
      * @param user
      * @return
      */
-    // 推荐使用#{}取值，不要用${},因为存在注入的风险
     @Insert("INSERT INTO user(name,phone,create_time,age) VALUES(#{name}, #{phone}, #{createTime},#{age})")
-    //keyProperty java对象的属性；keyColumn表示数据库的字段
     @Options(useGeneratedKeys=true, keyProperty="id", keyColumn="id")
     int insert(User user);
 
@@ -40,7 +40,7 @@ public interface UserMapper {
     @Results({
         @Result(column = "create_time", property = "createTime")
     })
-    User getById(Long id);
+    User getById(int id);
 
     /**
      * 更新
@@ -54,5 +54,5 @@ public interface UserMapper {
      * @param userId
      */
     @Delete("delete from user where id=#{uderId}")
-    void delete(Long userId);
+    void delete(int userId);
 }

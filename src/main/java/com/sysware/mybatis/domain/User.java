@@ -1,5 +1,10 @@
 package com.sysware.mybatis.domain;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -9,7 +14,12 @@ import java.util.Date;
  * @create: 2019-08-14 15:13
  * @version: 1.0.0
  **/
-public class User {
+@Getter
+@Setter
+@ToString
+public class User implements Serializable {
+
+    private static final long serialVersionUID = -4415438719697624729L;
 
     private int id;
 
@@ -21,43 +31,4 @@ public class User {
 
     private Date createTime;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public Date getCreateTime() {
-        return createTime;
-    }
-
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
-    }
 }

@@ -46,7 +46,7 @@ public class UserController {
      * @return
      */
     @GetMapping("get_by_id")
-    public Object getById(@RequestParam("id") long id){
+    public Object getById(@RequestParam("id") int id){
         return JsonData.buildSuccess(userService.getById(id));
     }
 
@@ -71,7 +71,7 @@ public class UserController {
      * @return
      */
     @DeleteMapping("remove_by_id")
-    public Object delete(@RequestParam("id") long id){
+    public Object delete(@RequestParam("id") int id){
         userService.delete(id);
         return JsonData.buildSuccess();
     }

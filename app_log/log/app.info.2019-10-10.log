@@ -1,0 +1,653 @@
+2019-10-10 11:56:26.727 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 3699 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 11:56:26.730 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 11:56:26.812 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 11:56:26.813 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 11:56:27.368 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 11:56:27.371 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 11:56:27.406 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-10-10 11:56:27.692 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac4f357b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 11:56:27.954 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 11:56:27.971 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 11:56:27.981 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 11:56:27.981 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 11:56:28.051 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 11:56:28.051 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1238 ms
+2019-10-10 11:56:28.729 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 11:56:28.997 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 11:56:29.041 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 11:56:29.067 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 11:56:29 CST 2019
+2019-10-10 11:56:29.069 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 11:56:29.100 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 11:56:29.103 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 2.972 seconds (JVM running for 3.668)
+2019-10-10 11:57:27.231 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 11:57:27.231 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 11:57:27.242 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 11 ms
+2019-10-10 11:59:17.156 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 11:59:17.157 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:00:06.050 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 3738 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 12:00:06.053 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 12:00:06.138 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 12:00:06.138 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 12:00:06.669 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 12:00:06.670 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 12:00:06.692 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-10-10 12:00:06.955 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6fe6946c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 12:00:07.292 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 12:00:07.302 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 12:00:07.309 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 12:00:07.309 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 12:00:07.372 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 12:00:07.373 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1234 ms
+2019-10-10 12:00:08.022 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:00:08.263 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 12:00:08.307 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 12:00:08.335 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 12:00:08 CST 2019
+2019-10-10 12:00:08.337 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 12:00:08.369 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 12:00:08.373 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 2.709 seconds (JVM running for 3.744)
+2019-10-10 12:00:08.503 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 12:00:08.503 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 12:00:08.510 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 7 ms
+2019-10-10 12:02:46.992 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 12:02:46.994 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:02:59.663 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 3751 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 12:02:59.666 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 12:02:59.743 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 12:02:59.743 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 12:03:00.288 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 12:03:00.290 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 12:03:00.312 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-10-10 12:03:00.574 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$830a3d19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 12:03:00.829 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 12:03:00.839 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 12:03:00.846 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 12:03:00.846 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 12:03:00.907 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 12:03:00.908 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1165 ms
+2019-10-10 12:03:01.499 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:03:01.745 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 12:03:01.796 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 12:03:01.825 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 12:03:01 CST 2019
+2019-10-10 12:03:01.826 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 12:03:01.857 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 12:03:01.860 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 2.605 seconds (JVM running for 3.154)
+2019-10-10 12:03:09.962 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 12:03:09.963 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 12:03:09.971 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 8 ms
+2019-10-10 12:05:15.259 INFO [Thread-13]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 12:05:15.260 INFO [Thread-13]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:05:26.436 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 3770 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 12:05:26.438 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 12:05:26.505 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 12:05:26.506 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 12:05:27.054 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 12:05:27.057 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 12:05:27.098 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-10-10 12:05:27.334 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cf3d962b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 12:05:27.558 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 12:05:27.567 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 12:05:27.574 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 12:05:27.574 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 12:05:27.630 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 12:05:27.630 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1124 ms
+2019-10-10 12:05:28.152 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:05:28.364 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 12:05:28.409 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 12:05:28.433 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 12:05:28 CST 2019
+2019-10-10 12:05:28.435 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 12:05:28.462 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 12:05:28.465 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 2.343 seconds (JVM running for 2.799)
+2019-10-10 12:05:28.574 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 12:05:28.576 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 12:05:28.583 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 6 ms
+2019-10-10 12:06:23.402 INFO [Thread-13]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 12:06:23.404 INFO [Thread-13]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:06:32.475 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 3783 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 12:06:32.477 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 12:06:32.542 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 12:06:32.542 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 12:06:32.978 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 12:06:32.980 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 12:06:32.997 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-10-10 12:06:33.214 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4aca1518] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 12:06:33.432 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 12:06:33.440 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 12:06:33.447 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 12:06:33.447 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 12:06:33.499 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 12:06:33.499 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 957 ms
+2019-10-10 12:06:34.026 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:06:34.229 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 12:06:34.276 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 12:06:34.302 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 12:06:34 CST 2019
+2019-10-10 12:06:34.303 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 12:06:34.330 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 12:06:34.333 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 2.156 seconds (JVM running for 2.558)
+2019-10-10 12:07:01.187 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 12:07:01.187 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 12:07:01.192 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 5 ms
+2019-10-10 12:09:54.314 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 12:09:54 CST 2019
+2019-10-10 12:13:14.318 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 12:13:14 CST 2019
+2019-10-10 12:16:34.311 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 12:16:34 CST 2019
+2019-10-10 12:19:54.319 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 12:19:54 CST 2019
+2019-10-10 13:42:31.553 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 13:42:31 CST 2019
+2019-10-10 13:45:51.564 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 13:45:51 CST 2019
+2019-10-10 13:45:55.294 INFO [Thread-12]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 13:45:55.296 INFO [Thread-12]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 13:46:14.229 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 3906 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 13:46:14.231 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 13:46:14.301 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 13:46:14.301 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 13:46:14.927 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 13:46:14.930 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 13:46:14.947 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-10-10 13:46:15.171 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c9d23fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 13:46:15.389 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 13:46:15.398 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 13:46:15.404 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 13:46:15.404 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 13:46:15.461 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 13:46:15.461 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1160 ms
+2019-10-10 13:46:16.120 INFO [restartedMain]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-10 13:46:16.222 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 13:46:16.258 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 13:46:16.421 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 13:46:16.480 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2019-10-10 13:46:16.493 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2019-10-10 13:46:16.523 INFO [restartedMain]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2019-10-10 13:46:16.687 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: addUsingPOST_1
+2019-10-10 13:46:16.689 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: deleteUsingDELETE_1
+2019-10-10 13:46:16.690 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2019-10-10 13:46:16.691 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: testTransactionUsingGET_1
+2019-10-10 13:46:16.692 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: updateUsingPUT_1
+2019-10-10 13:46:16.707 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 13:46:16 CST 2019
+2019-10-10 13:46:16.708 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 13:46:16.736 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 13:46:16.739 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 2.801 seconds (JVM running for 3.236)
+2019-10-10 13:48:28.805 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 13:48:28.805 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 13:48:28.815 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 9 ms
+2019-10-10 13:49:36.711 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 13:49:36 CST 2019
+2019-10-10 13:49:39.173 INFO [http-nio-8080-exec-5]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2019-10-10 13:50:02.493 INFO [Thread-13]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 13:50:02.495 INFO [Thread-13]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 13:50:02.550 INFO [Thread-13]com.alibaba.druid.pool.DruidDataSource.close:1817 -{dataSource-1} closed
+2019-10-10 13:50:20.144 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 3918 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 13:50:20.147 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 13:50:20.212 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 13:50:20.212 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 13:50:20.827 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 13:50:20.828 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 13:50:20.848 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-10-10 13:50:21.105 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c3ceca15] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 13:50:21.325 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 13:50:21.335 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 13:50:21.340 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 13:50:21.341 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 13:50:21.395 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 13:50:21.396 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1184 ms
+2019-10-10 13:50:22.035 INFO [restartedMain]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-10 13:50:22.147 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 13:50:22.189 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 13:50:22.355 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 13:50:22.407 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2019-10-10 13:50:22.418 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2019-10-10 13:50:22.442 INFO [restartedMain]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2019-10-10 13:50:22.581 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: addUsingPOST_1
+2019-10-10 13:50:22.582 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: deleteUsingDELETE_1
+2019-10-10 13:50:22.583 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2019-10-10 13:50:22.585 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: testTransactionUsingGET_1
+2019-10-10 13:50:22.586 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: updateUsingPUT_1
+2019-10-10 13:50:22.599 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 13:50:22 CST 2019
+2019-10-10 13:50:22.600 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 13:50:22.629 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 13:50:22.632 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 2.788 seconds (JVM running for 3.19)
+2019-10-10 13:50:48.440 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 13:50:48.441 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 13:50:48.449 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 7 ms
+2019-10-10 13:50:48.518 INFO [http-nio-8080-exec-1]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2019-10-10 13:53:42.606 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 13:53:42 CST 2019
+2019-10-10 13:57:02.609 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 13:57:02 CST 2019
+2019-10-10 14:00:22.612 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 14:00:22 CST 2019
+2019-10-10 14:52:44.961 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 14:52:44 CST 2019
+2019-10-10 14:56:04.975 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 14:56:04 CST 2019
+2019-10-10 14:59:24.977 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 14:59:24 CST 2019
+2019-10-10 15:02:05.645 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 15:02:05.647 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 15:02:05.667 INFO [Thread-14]com.alibaba.druid.pool.DruidDataSource.close:1817 -{dataSource-1} closed
+2019-10-10 15:02:11.981 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 3959 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 15:02:11.984 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 15:02:12.052 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 15:02:12.052 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 15:02:12.649 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 15:02:12.650 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 15:02:12.672 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-10-10 15:02:12.921 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c90eb1b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 15:02:13.174 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 15:02:13.183 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 15:02:13.191 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 15:02:13.191 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 15:02:13.249 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 15:02:13.249 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1197 ms
+2019-10-10 15:02:14.015 INFO [restartedMain]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-10 15:02:14.130 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 15:02:14.175 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 15:02:14.375 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 15:02:14.426 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2019-10-10 15:02:14.442 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2019-10-10 15:02:14.467 INFO [restartedMain]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2019-10-10 15:02:14.618 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: addUsingPOST_1
+2019-10-10 15:02:14.619 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: deleteUsingDELETE_1
+2019-10-10 15:02:14.620 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2019-10-10 15:02:14.622 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: testTransactionUsingGET_1
+2019-10-10 15:02:14.623 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: updateUsingPUT_1
+2019-10-10 15:02:14.641 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:02:14 CST 2019
+2019-10-10 15:02:14.643 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 15:02:14.671 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 15:02:14.674 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 3.002 seconds (JVM running for 3.417)
+2019-10-10 15:02:29.438 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 15:02:29.438 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 15:02:29.446 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 8 ms
+2019-10-10 15:02:50.038 INFO [http-nio-8080-exec-10]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-10-10 15:02:50.040 INFO [http-nio-8080-exec-10]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-10-10 15:02:50.255 INFO [http-nio-8080-exec-10]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2019-10-10 15:05:34.645 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:05:34 CST 2019
+2019-10-10 15:06:08.291 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 15:06:08.292 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 15:06:09.430 INFO [Thread-14]com.alibaba.druid.pool.DruidDataSource.close:1817 -{dataSource-1} closed
+2019-10-10 15:06:13.721 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 3978 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 15:06:13.724 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 15:06:13.803 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 15:06:13.804 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 15:06:14.532 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 15:06:14.534 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 15:06:14.556 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-10-10 15:06:14.817 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a3074bfa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 15:06:15.066 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 15:06:15.076 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 15:06:15.082 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 15:06:15.082 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 15:06:15.142 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 15:06:15.142 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1338 ms
+2019-10-10 15:06:15.900 INFO [restartedMain]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-10 15:06:16.029 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 15:06:16.071 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 15:06:16.263 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 15:06:16.341 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2019-10-10 15:06:16.355 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2019-10-10 15:06:16.382 INFO [restartedMain]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2019-10-10 15:06:16.542 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: addUsingPOST_1
+2019-10-10 15:06:16.543 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: deleteUsingDELETE_1
+2019-10-10 15:06:16.544 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2019-10-10 15:06:16.545 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: testTransactionUsingGET_1
+2019-10-10 15:06:16.546 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: updateUsingPUT_1
+2019-10-10 15:06:16.561 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:06:16 CST 2019
+2019-10-10 15:06:16.562 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 15:06:16.592 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 15:06:16.595 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 3.264 seconds (JVM running for 3.803)
+2019-10-10 15:09:36.565 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:09:36 CST 2019
+2019-10-10 15:12:56.572 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:12:56 CST 2019
+2019-10-10 15:16:16.580 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:16:16 CST 2019
+2019-10-10 15:19:38.404 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:19:38 CST 2019
+2019-10-10 15:21:15.584 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 15:21:15.585 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 15:21:15.596 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 11 ms
+2019-10-10 15:21:15.711 INFO [http-nio-8080-exec-1]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-10-10 15:21:15.712 INFO [http-nio-8080-exec-1]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-10-10 15:21:31.998 INFO [http-nio-8080-exec-1]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2019-10-10 15:22:58.403 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:22:58 CST 2019
+2019-10-10 15:26:18.402 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:26:18 CST 2019
+2019-10-10 15:29:38.409 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:29:38 CST 2019
+2019-10-10 15:32:58.415 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:32:58 CST 2019
+2019-10-10 15:33:42.313 INFO [Thread-15]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 15:33:42.315 INFO [Thread-15]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 15:33:43.451 INFO [Thread-15]com.alibaba.druid.pool.DruidDataSource.close:1817 -{dataSource-1} closed
+2019-10-10 15:35:19.042 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 4078 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 15:35:19.044 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 15:35:19.128 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 15:35:19.129 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 15:35:19.814 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 15:35:19.816 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 15:35:19.839 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-10-10 15:35:20.070 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$856abb7b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 15:35:20.305 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 15:35:20.314 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 15:35:20.321 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 15:35:20.321 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 15:35:20.390 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 15:35:20.390 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1261 ms
+2019-10-10 15:35:21.181 INFO [restartedMain]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-10 15:35:21.297 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 15:35:21.339 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 15:35:21.532 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 15:35:21.590 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2019-10-10 15:35:21.603 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2019-10-10 15:35:21.638 INFO [restartedMain]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2019-10-10 15:35:21.807 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: addUsingPOST_1
+2019-10-10 15:35:21.808 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: deleteUsingDELETE_1
+2019-10-10 15:35:21.810 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2019-10-10 15:35:21.811 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: testTransactionUsingGET_1
+2019-10-10 15:35:21.812 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: updateUsingPUT_1
+2019-10-10 15:35:21.827 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:35:21 CST 2019
+2019-10-10 15:35:21.829 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 15:35:21.858 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 15:35:21.861 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 3.168 seconds (JVM running for 3.617)
+2019-10-10 15:35:37.175 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 15:35:37.176 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 15:35:37.182 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 6 ms
+2019-10-10 15:35:55.987 INFO [http-nio-8080-exec-10]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-10-10 15:35:55.988 INFO [http-nio-8080-exec-10]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-10-10 15:35:56.222 INFO [http-nio-8080-exec-10]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2019-10-10 15:38:41.833 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:38:41 CST 2019
+2019-10-10 15:42:01.835 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:42:01 CST 2019
+2019-10-10 15:45:21.842 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:45:21 CST 2019
+2019-10-10 15:48:41.838 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:48:41 CST 2019
+2019-10-10 15:52:01.844 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:52:01 CST 2019
+2019-10-10 15:55:21.844 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:55:21 CST 2019
+2019-10-10 15:58:41.853 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 15:58:41 CST 2019
+2019-10-10 16:02:01.858 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:02:01 CST 2019
+2019-10-10 16:05:21.866 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:05:21 CST 2019
+2019-10-10 16:08:41.864 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:08:41 CST 2019
+2019-10-10 16:12:01.873 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:12:01 CST 2019
+2019-10-10 16:13:27.399 INFO [Thread-15]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 16:13:27.404 INFO [Thread-15]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 16:13:28.558 INFO [Thread-15]com.alibaba.druid.pool.DruidDataSource.close:1817 -{dataSource-1} closed
+2019-10-10 16:19:41.554 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 4190 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 16:19:41.557 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 16:19:41.632 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 16:19:41.632 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 16:19:42.264 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 16:19:42.266 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 16:19:42.288 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-10-10 16:19:42.513 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$38f1a852] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 16:19:42.735 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 16:19:42.744 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 16:19:42.750 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 16:19:42.750 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 16:19:42.814 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 16:19:42.815 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1183 ms
+2019-10-10 16:19:43.542 INFO [restartedMain]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-10 16:19:43.648 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 16:19:43.686 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 16:19:43.862 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 16:19:43.921 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2019-10-10 16:19:43.934 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2019-10-10 16:19:43.964 INFO [restartedMain]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2019-10-10 16:19:44.121 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: addUsingPOST_1
+2019-10-10 16:19:44.122 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: deleteUsingDELETE_1
+2019-10-10 16:19:44.123 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2019-10-10 16:19:44.125 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: testTransactionUsingGET_1
+2019-10-10 16:19:44.127 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: updateUsingPUT_1
+2019-10-10 16:19:44.142 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:19:44 CST 2019
+2019-10-10 16:19:44.143 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 16:19:44.176 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 16:19:44.179 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 2.947 seconds (JVM running for 3.371)
+2019-10-10 16:19:51.251 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 16:19:51.252 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 16:19:51.259 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 6 ms
+2019-10-10 16:20:20.600 INFO [http-nio-8080-exec-10]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2019-10-10 16:22:59.009 INFO [Thread-13]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 16:22:59.013 INFO [Thread-13]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 16:22:59.047 INFO [Thread-13]com.alibaba.druid.pool.DruidDataSource.close:1817 -{dataSource-1} closed
+2019-10-10 16:23:03.041 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 4215 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 16:23:03.043 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 16:23:03.110 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 16:23:03.110 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 16:23:03.722 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 16:23:03.723 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 16:23:03.741 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-10-10 16:23:03.964 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b23b349] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 16:23:04.197 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 16:23:04.206 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 16:23:04.212 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 16:23:04.212 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 16:23:04.275 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 16:23:04.275 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1165 ms
+2019-10-10 16:23:04.915 INFO [restartedMain]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-10 16:23:05.024 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 16:23:05.064 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 16:23:05.257 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 16:23:05.318 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2019-10-10 16:23:05.333 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2019-10-10 16:23:05.362 INFO [restartedMain]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2019-10-10 16:23:05.534 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: addUsingPOST_1
+2019-10-10 16:23:05.535 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: deleteUsingDELETE_1
+2019-10-10 16:23:05.536 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2019-10-10 16:23:05.538 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: testTransactionUsingGET_1
+2019-10-10 16:23:05.539 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: updateUsingPUT_1
+2019-10-10 16:23:05.555 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:23:05 CST 2019
+2019-10-10 16:23:05.556 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 16:23:05.586 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 16:23:05.589 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 2.846 seconds (JVM running for 3.259)
+2019-10-10 16:23:10.902 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 16:23:10.902 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 16:23:10.908 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 6 ms
+2019-10-10 16:23:11.043 INFO [http-nio-8080-exec-1]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-10-10 16:23:11.044 INFO [http-nio-8080-exec-1]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-10-10 16:23:11.234 INFO [http-nio-8080-exec-1]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2019-10-10 16:26:25.562 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:26:25 CST 2019
+2019-10-10 16:29:45.567 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:29:45 CST 2019
+2019-10-10 16:33:05.575 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:33:05 CST 2019
+2019-10-10 16:36:25.580 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:36:25 CST 2019
+2019-10-10 16:39:45.587 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:39:45 CST 2019
+2019-10-10 16:43:05.595 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:43:05 CST 2019
+2019-10-10 16:46:25.592 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:46:25 CST 2019
+2019-10-10 16:49:45.600 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:49:45 CST 2019
+2019-10-10 16:53:05.606 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:53:05 CST 2019
+2019-10-10 16:56:25.614 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:56:25 CST 2019
+2019-10-10 16:59:45.614 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 16:59:45 CST 2019
+2019-10-10 17:03:05.614 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:03:05 CST 2019
+2019-10-10 17:06:25.621 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:06:25 CST 2019
+2019-10-10 17:09:45.627 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:09:45 CST 2019
+2019-10-10 17:13:05.645 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:13:05 CST 2019
+2019-10-10 17:16:25.633 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:16:25 CST 2019
+2019-10-10 17:19:45.643 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:19:45 CST 2019
+2019-10-10 17:23:05.643 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:23:05 CST 2019
+2019-10-10 17:26:25.653 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:26:25 CST 2019
+2019-10-10 17:29:45.647 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:29:45 CST 2019
+2019-10-10 17:33:05.654 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:33:05 CST 2019
+2019-10-10 17:36:25.662 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:36:25 CST 2019
+2019-10-10 17:39:45.667 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:39:45 CST 2019
+2019-10-10 17:43:05.673 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:43:05 CST 2019
+2019-10-10 17:46:25.668 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:46:25 CST 2019
+2019-10-10 17:49:45.672 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:49:45 CST 2019
+2019-10-10 17:53:05.681 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:53:05 CST 2019
+2019-10-10 17:56:25.683 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:56:25 CST 2019
+2019-10-10 17:59:45.687 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 17:59:45 CST 2019
+2019-10-10 18:03:05.693 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 18:03:05 CST 2019
+2019-10-10 18:06:25.700 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 18:06:25 CST 2019
+2019-10-10 18:09:45.707 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 18:09:45 CST 2019
+2019-10-10 18:13:05.708 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 18:13:05 CST 2019
+2019-10-10 18:16:25.709 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 18:16:25 CST 2019
+2019-10-10 18:37:02.847 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 18:37:02 CST 2019
+2019-10-10 18:40:22.842 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 18:40:22 CST 2019
+2019-10-10 18:43:42.849 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 18:43:42 CST 2019
+2019-10-10 18:47:02.854 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 18:47:02 CST 2019
+2019-10-10 18:50:22.857 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 18:50:22 CST 2019
+2019-10-10 18:52:14.242 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 18:52:14.246 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 18:52:15.421 INFO [Thread-14]com.alibaba.druid.pool.DruidDataSource.close:1817 -{dataSource-1} closed
+2019-10-10 18:52:21.484 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 4947 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 18:52:21.487 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 18:52:21.561 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 18:52:21.562 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 18:52:22.274 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 18:52:22.276 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 18:52:22.294 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-10-10 18:52:22.534 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$744c0a6d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 18:52:22.805 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 18:52:22.813 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 18:52:22.821 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 18:52:22.821 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 18:52:22.892 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 18:52:22.892 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1330 ms
+2019-10-10 18:52:23.620 INFO [restartedMain]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-10 18:52:23.738 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 18:52:23.792 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 18:52:23.987 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 18:52:24.051 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2019-10-10 18:52:24.070 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2019-10-10 18:52:24.101 INFO [restartedMain]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2019-10-10 18:52:24.278 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: addUsingPOST_1
+2019-10-10 18:52:24.280 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: deleteUsingDELETE_1
+2019-10-10 18:52:24.281 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2019-10-10 18:52:24.282 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: testTransactionUsingGET_1
+2019-10-10 18:52:24.283 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: updateUsingPUT_1
+2019-10-10 18:52:24.300 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 18:52:24 CST 2019
+2019-10-10 18:52:24.301 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 18:52:24.330 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 18:52:24.333 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 3.158 seconds (JVM running for 3.58)
+2019-10-10 18:53:54.146 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 18:53:54.147 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 18:53:54.158 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 11 ms
+2019-10-10 18:55:35.998 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 18:55:36.001 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 18:55:38.184 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 4964 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 18:55:38.186 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 18:55:38.255 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 18:55:38.255 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 18:55:38.893 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 18:55:38.894 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 18:55:38.912 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-10-10 18:55:39.137 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e8e32581] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 18:55:39.369 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 18:55:39.377 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 18:55:39.383 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 18:55:39.384 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 18:55:39.447 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 18:55:39.447 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1192 ms
+2019-10-10 18:55:40.094 INFO [restartedMain]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-10 18:55:40.200 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 18:55:40.238 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 18:55:40.414 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 18:55:40.476 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2019-10-10 18:55:40.489 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2019-10-10 18:55:40.516 INFO [restartedMain]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2019-10-10 18:55:40.674 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: addUsingPOST_1
+2019-10-10 18:55:40.676 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: deleteUsingDELETE_1
+2019-10-10 18:55:40.677 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2019-10-10 18:55:40.678 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: testTransactionUsingGET_1
+2019-10-10 18:55:40.680 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: updateUsingPUT_1
+2019-10-10 18:55:40.694 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 18:55:40 CST 2019
+2019-10-10 18:55:40.695 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 18:55:40.724 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 18:55:40.727 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 2.844 seconds (JVM running for 3.255)
+2019-10-10 18:56:01.066 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 18:56:01.067 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 18:56:01.076 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 9 ms
+2019-10-10 18:59:00.701 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 18:59:00 CST 2019
+2019-10-10 18:59:05.927 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 18:59:05.928 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 18:59:09.060 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 4987 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 18:59:09.062 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 18:59:09.133 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 18:59:09.133 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 18:59:09.770 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 18:59:09.772 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 18:59:09.789 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-10-10 18:59:10.052 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$452ab9e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 18:59:10.297 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 18:59:10.307 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 18:59:10.313 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 18:59:10.314 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 18:59:10.383 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 18:59:10.383 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1250 ms
+2019-10-10 18:59:11.093 INFO [restartedMain]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-10 18:59:11.219 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 18:59:11.263 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 18:59:11.474 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 18:59:11.544 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2019-10-10 18:59:11.559 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2019-10-10 18:59:11.588 INFO [restartedMain]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2019-10-10 18:59:11.757 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: addUsingPOST_1
+2019-10-10 18:59:11.758 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: deleteUsingDELETE_1
+2019-10-10 18:59:11.759 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2019-10-10 18:59:11.760 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: testTransactionUsingGET_1
+2019-10-10 18:59:11.761 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: updateUsingPUT_1
+2019-10-10 18:59:11.776 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 18:59:11 CST 2019
+2019-10-10 18:59:11.777 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 18:59:11.809 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 18:59:11.812 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 3.05 seconds (JVM running for 3.472)
+2019-10-10 18:59:54.271 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 18:59:54.273 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 18:59:54.286 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 13 ms
+2019-10-10 18:59:54.409 INFO [http-nio-8080-exec-1]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-10-10 18:59:54.411 INFO [http-nio-8080-exec-1]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-10-10 18:59:54.586 INFO [http-nio-8080-exec-1]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2019-10-10 19:02:31.786 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:02:31 CST 2019
+2019-10-10 19:05:51.791 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:05:51 CST 2019
+2019-10-10 19:09:11.795 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:09:11 CST 2019
+2019-10-10 19:12:31.800 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:12:31 CST 2019
+2019-10-10 19:15:51.810 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:15:51 CST 2019
+2019-10-10 19:19:11.814 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:19:11 CST 2019
+2019-10-10 19:22:31.803 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:22:31 CST 2019
+2019-10-10 19:25:51.810 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:25:51 CST 2019
+2019-10-10 19:29:11.815 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:29:11 CST 2019
+2019-10-10 19:32:31.823 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:32:31 CST 2019
+2019-10-10 19:35:51.827 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:35:51 CST 2019
+2019-10-10 19:39:11.826 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:39:11 CST 2019
+2019-10-10 19:42:18.068 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown:208 -Shutting down ExecutorService 'taskScheduler'
+2019-10-10 19:42:18.071 INFO [Thread-14]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-10 19:42:19.216 INFO [Thread-14]com.alibaba.druid.pool.DruidDataSource.close:1817 -{dataSource-1} closed
+2019-10-10 19:42:23.049 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarting:50 -Starting SpringBootDemoApplication on localhost with PID 5089 (/Users/zwx/IdeaProjects/spring-boot-demo/target/classes started by zwx in /Users/zwx/IdeaProjects/spring-boot-demo)
+2019-10-10 19:42:23.052 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStartupProfileInfo:651 -The following profiles are active: test
+2019-10-10 19:42:23.127 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-10 19:42:23.127 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-10 19:42:23.760 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 19:42:23.761 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 19:42:23.779 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-10-10 19:42:24.019 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b40365c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 19:42:24.264 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-10-10 19:42:24.273 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-10 19:42:24.280 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-10-10 19:42:24.280 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-10 19:42:24.351 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-10-10 19:42:24.351 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1223 ms
+2019-10-10 19:42:25.049 INFO [restartedMain]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-10 19:42:25.165 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 19:42:25.206 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-10-10 19:42:25.388 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize:171 -Initializing ExecutorService 'taskScheduler'
+2019-10-10 19:42:25.453 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2019-10-10 19:42:25.468 INFO [restartedMain]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2019-10-10 19:42:25.498 INFO [restartedMain]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2019-10-10 19:42:25.669 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: addUsingPOST_1
+2019-10-10 19:42:25.670 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: deleteUsingDELETE_1
+2019-10-10 19:42:25.671 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2019-10-10 19:42:25.673 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: testTransactionUsingGET_1
+2019-10-10 19:42:25.674 INFO [restartedMain]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: updateUsingPUT_1
+2019-10-10 19:42:25.689 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:42:25 CST 2019
+2019-10-10 19:42:25.691 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-10-10 19:42:25.723 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-10 19:42:25.726 INFO [restartedMain]com.sysware.SpringBootDemoApplication.logStarted:59 -Started SpringBootDemoApplication in 2.987 seconds (JVM running for 3.406)
+2019-10-10 19:42:32.761 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 19:42:32.761 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-10-10 19:42:32.768 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 7 ms
+2019-10-10 19:42:43.558 INFO [http-nio-8080-exec-10]com.alibaba.druid.pool.DruidDataSource.init:922 -{dataSource-1} inited
+2019-10-10 19:45:45.696 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:45:45 CST 2019
+2019-10-10 19:48:42.123 INFO [http-nio-8080-exec-138]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-10-10 19:48:42.125 INFO [http-nio-8080-exec-138]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-10-10 19:49:05.704 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:49:05 CST 2019
+2019-10-10 19:52:25.699 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:52:25 CST 2019
+2019-10-10 19:55:45.706 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:55:45 CST 2019
+2019-10-10 19:59:05.712 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 19:59:05 CST 2019
+2019-10-10 20:02:25.722 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:02:25 CST 2019
+2019-10-10 20:05:45.727 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:05:45 CST 2019
+2019-10-10 20:09:05.720 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:09:05 CST 2019
+2019-10-10 20:12:25.730 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:12:25 CST 2019
+2019-10-10 20:15:45.734 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:15:45 CST 2019
+2019-10-10 20:19:05.739 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:19:05 CST 2019
+2019-10-10 20:22:25.738 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:22:25 CST 2019
+2019-10-10 20:25:45.746 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:25:45 CST 2019
+2019-10-10 20:29:05.750 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:29:05 CST 2019
+2019-10-10 20:32:25.765 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:32:25 CST 2019
+2019-10-10 20:35:45.765 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:35:45 CST 2019
+2019-10-10 20:39:05.761 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:39:05 CST 2019
+2019-10-10 20:42:25.767 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:42:25 CST 2019
+2019-10-10 20:45:45.775 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:45:45 CST 2019
+2019-10-10 20:49:05.782 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:49:05 CST 2019
+2019-10-10 20:52:25.765 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:52:25 CST 2019
+2019-10-10 20:55:45.769 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:55:45 CST 2019
+2019-10-10 20:59:05.774 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 20:59:05 CST 2019
+2019-10-10 21:02:25.778 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 21:02:25 CST 2019
+2019-10-10 21:05:45.784 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 21:05:45 CST 2019
+2019-10-10 21:09:05.795 INFO [scheduling-1]com.sysware.task.timing.TimingTask.start:27 -执行了定时任务，时间：Thu Oct 10 21:09:05 CST 2019

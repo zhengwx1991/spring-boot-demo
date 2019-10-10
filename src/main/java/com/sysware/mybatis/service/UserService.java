@@ -24,7 +24,7 @@ public interface UserService {
      * @param id
      * @return
      */
-    User getById(Long id);
+    User getById(int id);
 
     /**
      * 更新
@@ -36,7 +36,7 @@ public interface UserService {
      * 删除
      * @param userId
      */
-    void delete(Long userId);
+    void delete(int userId);
 
     /**
      * 测试事务
