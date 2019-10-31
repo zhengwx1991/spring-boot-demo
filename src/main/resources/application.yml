@@ -37,3 +37,7 @@ test:
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+elasticsearch:
+  host: 39.100.243.196
+  port: 9200

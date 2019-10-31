@@ -21,7 +21,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @EnableScheduling
 @EnableAsync
-@MapperScan("com.sysware.mybatis.mapper")
+@MapperScan({"com.sysware.mybatis.mapper", "com.sysware.elasticsearch.mapper"})
 @EnableSwagger2
 public class SpringBootDemoApplication {
     public static void main(String[] args) {
